@@ -104,7 +104,7 @@ public class frmCaidatMatkhau : Form
 		{
 			components.Dispose();
 		}
-		((Form)this).Dispose(disposing);
+		base.Dispose(disposing);
 	}
 
 	private void InitializeComponent()

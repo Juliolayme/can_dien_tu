@@ -464,14 +464,14 @@ public class frmThongke : Form
 			object value = Missing.Value;
 			CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 			Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
-			Application val = (Application)new ApplicationClass();
+			Microsoft.Office.Interop.Excel.Application val = (Microsoft.Office.Interop.Excel.Application)new ApplicationClass();
 			Workbook val2 = ((_Application)val).Workbooks.Add(value);
 			Worksheet val3 = (Worksheet)((_Workbook)val2).Worksheets[(object)1];
 			for (int i = 1; i < ((BaseCollection)dataGrid.Columns).Count; i++)
 			{
 				((_Worksheet)val3).Cells[(object)1, (object)i] = dataGrid.Columns[i].HeaderText.ToUpper();
 			}
-			Range val4 = ((_Worksheet)val3)[(object)"O1", (object)"O30000"];
+			Range val4 = ((_Worksheet)val3).get_Range((object)"O1", (object)"O30000");
 			val4.NumberFormat = "dd/MM/yyyy HH:mm:ss";
 			for (short num = 0; num <= dataGrid.RowCount - 1; num++)
 			{
@@ -480,11 +480,11 @@ public class frmThongke : Form
 					((_Worksheet)val3).Cells[(object)(num + 2), (object)num2] = dataGrid[(int)num2, (int)num].Value.ToString();
 				}
 			}
-			val4 = ((_Worksheet)val3)[(object)"A1", (object)("Q" + (dataGrid.RowCount + 1))];
+			val4 = ((_Worksheet)val3).get_Range((object)"A1", (object)("Q" + (dataGrid.RowCount + 1)));
 			val4.Borders.Weight = 2;
-			val4 = ((_Worksheet)val3)[(object)"A1", (object)"Q1"];
+			val4 = ((_Worksheet)val3).get_Range((object)"A1", (object)"Q1");
 			val4.Font.Bold = true;
-			val4 = ((_Worksheet)val3)[(object)"A1", (object)"Q30000"];
+			val4 = ((_Worksheet)val3).get_Range((object)"A1", (object)"Q30000");
 			val4.Columns.AutoFit();
 			((_Workbook)val2).SaveAs((object)excelName, (object)(XlFileFormat)(-4143), value, value, value, value, (XlSaveAsAccessMode)3, value, value, value, value, value);
 			((_Workbook)val2).Close((object)true, value, value);
@@ -566,7 +566,7 @@ public class frmThongke : Form
 		{
 			components.Dispose();
 		}
-		((Form)this).Dispose(disposing);
+		base.Dispose(disposing);
 	}
 
 	private void InitializeComponent()

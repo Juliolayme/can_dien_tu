@@ -108,7 +108,7 @@ internal class DBUtil
 		string text = "";
 		ManagementClass val = new ManagementClass("win32_processor");
 		ManagementObjectCollection instances = val.GetInstances();
-		ManagementObjectEnumerator enumerator = instances.GetEnumerator();
+		var enumerator = instances.GetEnumerator();
 		try
 		{
 			while (enumerator.MoveNext())
