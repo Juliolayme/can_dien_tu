@@ -8,6 +8,10 @@ using System.IO.Ports;
 using System.Media;
 using System.Threading;
 using System.Windows.Forms;
+using Label = System.Windows.Forms.Label;
+using TextBox = System.Windows.Forms.TextBox;
+using CheckBox = System.Windows.Forms.CheckBox;
+using Timer = System.Windows.Forms.Timer;
 using Chuongtrinhcan.Properties;
 using DataDynamics.ActiveReports;
 

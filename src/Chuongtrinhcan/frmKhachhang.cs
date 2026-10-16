@@ -4,6 +4,7 @@ using System.Data;
 using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
+using Timer = System.Windows.Forms.Timer;
 using Chuongtrinhcan.Properties;
 
 namespace Chuongtrinhcan;

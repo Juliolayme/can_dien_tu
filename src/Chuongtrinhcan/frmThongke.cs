@@ -7,6 +7,10 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
+using Label = System.Windows.Forms.Label;
+using Button = System.Windows.Forms.Button;
+using CheckBox = System.Windows.Forms.CheckBox;
+using Timer = System.Windows.Forms.Timer;
 using Chuongtrinhcan.Properties;
 using Microsoft.Office.Interop.Excel;
 
