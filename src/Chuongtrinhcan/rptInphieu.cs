@@ -206,7 +206,7 @@ public class rptInphieu : ActiveReport3
 		if (disposing)
 		{
 		}
-		((ActiveReport3)this).Dispose(disposing);
+		base.Dispose(disposing);
 	}
 
 	private void InitializeComponent()

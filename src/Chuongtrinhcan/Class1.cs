@@ -44,7 +44,7 @@ public class Class1
 		((Control)val4).SetBounds(228, 72, 75, 23);
 		((Control)val5).SetBounds(309, 72, 75, 23);
 		((Control)val2).AutoSize = true;
-		((Control)val3).Anchor = (AnchorStyles)(((Control)val3).Anchor | 8);
+		((Control)val3).Anchor = (AnchorStyles)((int)((Control)val3).Anchor | 8);
 		((Control)val4).Anchor = (AnchorStyles)10;
 		((Control)val5).Anchor = (AnchorStyles)10;
 		val.ClientSize = new Size(396, 107);
