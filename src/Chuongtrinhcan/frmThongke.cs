@@ -11,6 +11,8 @@ using Label = System.Windows.Forms.Label;
 using Button = System.Windows.Forms.Button;
 using CheckBox = System.Windows.Forms.CheckBox;
 using Timer = System.Windows.Forms.Timer;
+using Point = System.Drawing.Point;
+using Font = System.Drawing.Font;
 using Chuongtrinhcan.Properties;
 using Microsoft.Office.Interop.Excel;
 

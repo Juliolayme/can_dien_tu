@@ -12,6 +12,7 @@ using Label = System.Windows.Forms.Label;
 using TextBox = System.Windows.Forms.TextBox;
 using CheckBox = System.Windows.Forms.CheckBox;
 using Timer = System.Windows.Forms.Timer;
+using Padding = System.Windows.Forms.Padding;
 using Chuongtrinhcan.Properties;
 using DataDynamics.ActiveReports;
 
