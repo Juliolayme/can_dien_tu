@@ -1,0 +1,51 @@
+name: Build Chuongtrinhcan.exe
+
+on:
+  push:
+    branches:
+      - claude/vigilant-tesla-nvmowd
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract App DLLs from zip
+        shell: pwsh
+        run: |
+          Expand-Archive -Path "CAN_DIEN_TU_FARMPLUS.zip" -DestinationPath "extracted" -Force
+          if (Test-Path "App") { Remove-Item "App" -Recurse -Force }
+          Move-Item -Path "extracted/App" -Destination "App"
+          Get-ChildItem "App" -Filter *.dll | Select-Object Name, Length
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Restore
+        shell: pwsh
+        run: dotnet restore src/Chuongtrinhcan.csproj
+
+      - name: Build
+        shell: pwsh
+        run: msbuild src/Chuongtrinhcan.csproj /p:Configuration=Release /p:Platform=x86 /restore
+
+      - name: Collect output
+        shell: pwsh
+        run: |
+          $out = Get-ChildItem -Recurse -Path "src/bin" -Filter "Chuongtrinhcan.exe" | Select-Object -First 1
+          if (-not $out) { Write-Error "Khong tim thay Chuongtrinhcan.exe sau khi build"; exit 1 }
+          New-Item -ItemType Directory -Path "output" -Force | Out-Null
+          Copy-Item $out.FullName "output/Chuongtrinhcan.exe" -Force
+          $cfg = Join-Path $out.DirectoryName "Chuongtrinhcan.exe.config"
+          if (Test-Path $cfg) { Copy-Item $cfg "output/Chuongtrinhcan.exe.config" -Force }
+          Write-Host "Kich thuoc EXE:" (Get-Item "output/Chuongtrinhcan.exe").Length "bytes"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chuongtrinhcan-exe
+          path: output/*

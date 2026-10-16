@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Chuongtrinhcan</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace></RootNamespace>
+    <Deterministic>true</Deterministic>
+    <!-- Cac DLL tham chieu nam trong thu muc App (giai nen tu CAN_DIEN_TU_FARMPLUS.zip) -->
+    <AppDir>$(MSBuildProjectDirectory)\..\App</AppDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Chuongtrinhcan.exe.licenses" />
+    <EmbeddedResource Include="Chuongtrinhcan.exe.licenses" LogicalName="Chuongtrinhcan.exe.licenses" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="ActiveReports3">
+      <HintPath>$(AppDir)\ActiveReports3.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.Viewer3">
+      <HintPath>$(AppDir)\ActiveReports.Viewer3.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.Chart">
+      <HintPath>$(AppDir)\ActiveReports.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>$(AppDir)\Microsoft.Office.Interop.Excel.DLL</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop">
+      <HintPath>$(AppDir)\Microsoft.Vbe.Interop.DLL</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="office">
+      <HintPath>$(AppDir)\office.DLL</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole">
+      <HintPath>$(AppDir)\stdole.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+</Project>

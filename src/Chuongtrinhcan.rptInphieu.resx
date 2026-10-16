@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="txtTotalSomacan.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="txtSocon3.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="label57.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label12.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label20.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label48.Text" xml:space="preserve"><value>Trọng lượng bình quân (kg/con)</value></data>
+  <data name="label49.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Tổng trọng lượng gà (kg)</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Số lượng mã cân bì</value></data>
+  <data name="label36.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSolong3.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label13.Text" xml:space="preserve"><value>:</value></data>
+  <data name="txtTotalSolong.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="label16.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>:</value></data>
+  <data name="txtSocon4.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="label58.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Số lượng mã cân gà</value></data>
+  <data name="label11.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label47.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="textBox4.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 18pt; font-family: Times New Roman; vertical-align: bottom; </value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Trọng lượng</value></data>
+  <data name="txtGhichu.Style" xml:space="preserve"><value>ddo-char-set: 0; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Số lồng</value></data>
+  <data name="label4.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: left; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Số con</value></data>
+  <data name="txtCty.Text" xml:space="preserve"><value>       </value></data>
+  <data name="label53.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Số lượng lồng bì</value></data>
+  <data name="txtSocon2.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSolong2.Text" xml:space="preserve"><value>solong2</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>:</value></data>
+  <data name="txtSolong3.Text" xml:space="preserve"><value>solong3</value></data>
+  <data name="textBox4.Text" xml:space="preserve"><value>PHIẾU CÂN GÀ</value></data>
+  <data name="txtLoaican.OutputFormat" xml:space="preserve"><value>#,##0.0</value></data>
+  <data name="txtSolong1.Text" xml:space="preserve"><value>solong1</value></data>
+  <data name="txtTL4.Text" xml:space="preserve"><value>tl4</value></data>
+  <data name="label10.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Mã cân</value></data>
+  <data name="txtSolong4.Text" xml:space="preserve"><value>solong4</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Số xe</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label15.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label43.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSTT3.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label57.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Số phiếu</value></data>
+  <data name="txtSolong3.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Số lồng</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>:</value></data>
+  <data name="txtTL3.Text" xml:space="preserve"><value>tl3</value></data>
+  <data name="label8.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Tổng trọng lượng bì lồng (kg)</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Trọng lượng</value></data>
+  <data name="label52.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Tên khách hàng</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>:</value></data>
+  <data name="txtSocon3.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTotalSolongBi.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Ghi chú</value></data>
+  <data name="label1.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: left; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label51.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Số con</value></data>
+  <data name="txtSolong2.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Mã cân</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>:</value></data>
+  <data name="label14.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTl1.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label19.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSocon1.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="txtTotalTLgalong.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="label5.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: left; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtDienthoai.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: normal; font-size: 12pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTl1.Text" xml:space="preserve"><value>tl1</value></data>
+  <data name="label2.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTLBi.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="txtTl2.Text" xml:space="preserve"><value>tl2</value></data>
+  <data name="label18.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtLoaican.Text" xml:space="preserve"><value>Loaican</value></data>
+  <data name="txtSolong4.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Mã cân</value></data>
+  <data name="label40.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label39.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSTT2.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Trọng lượng</value></data>
+  <data name="label13.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtDiachi.Text" xml:space="preserve"><value>Địa chỉ: </value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Số lồng</value></data>
+  <data name="label9.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Số con</value></data>
+  <data name="label6.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSocon3.Text" xml:space="preserve"><value>socon3</value></data>
+  <data name="label55.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSocon1.Text" xml:space="preserve"><value>socon1</value></data>
+  <data name="txtSocon2.Text" xml:space="preserve"><value>socon2</value></data>
+  <data name="txtCty.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 12pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label38.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSolong1.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTL4.OutputFormat" xml:space="preserve"><value>#,##0.0</value></data>
+  <data name="txtSolong1.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="label12.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSophieu.Text" xml:space="preserve"><value>Số:</value></data>
+  <data name="txtSocon4.Text" xml:space="preserve"><value>socon4</value></data>
+  <data name="label17.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label45.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTotalTLcabi.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="txtTl1.OutputFormat" xml:space="preserve"><value>#,##0.0</value></data>
+  <data name="txtTL3.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label54.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTotalSLgalong.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="label3.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: left; font-weight: normal; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTL4.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label51.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label26.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtKyten.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: normal; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSophieu.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: left; font-weight: normal; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label48.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSolong4.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="txtTotalSomacanBi.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="label16.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSocon2.OutputFormat" xml:space="preserve"><value>#,##0</value></data>
+  <data name="txtSolong2.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label41.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtDiachi.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: normal; font-size: 12pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSTT1.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTl2.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSoxe.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: normal; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label46.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label50.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSocon1.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label7.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtNgaycan.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSocon4.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtTL3.OutputFormat" xml:space="preserve"><value>#,##0.0</value></data>
+  <data name="txtKyten.Text" xml:space="preserve"><value>txtDienthoai</value></data>
+  <data name="txtTl2.OutputFormat" xml:space="preserve"><value>#,##0.0</value></data>
+  <data name="txtLoaican.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: left; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Tổng trọng lượng cả bì</value></data>
+  <data name="txtSTT4.Text" xml:space="preserve"><value>120</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>Tổng số con gà (con)</value></data>
+  <data name="txtSTT3.Text" xml:space="preserve"><value>80</value></data>
+  <data name="label42.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtKhachhang.Style" xml:space="preserve"><value>ddo-char-set: 0; font-size: 11.25pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="label37.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSTT2.Text" xml:space="preserve"><value>40</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Số lượng lồng gà</value></data>
+  <data name="txtSTT4.Style" xml:space="preserve"><value>ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; font-family: Times New Roman; vertical-align: middle; </value></data>
+  <data name="txtSTT1.Text" xml:space="preserve"><value>Tổng</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Trọng lượng</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Số con</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Mã cân</value></data>
+  <data name="txtTlBinhquan.Style" xml:space="preserve"><value>ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Times New Roman; white-space: inherit; vertical-align: middle; </value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Số lồng</value></data>
+  </root>
