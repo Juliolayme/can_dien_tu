@@ -83,6 +83,12 @@ internal class DataFetcher
 		command.Parameters.Add(new OleDbParameter(param, (object)value));
 	}
 
+	// Luu gia tri so truc tiep (khong qua chuoi) de khong bi sai do dau thap phan cua Windows
+	public void addParameterWithValue(string param, double value)
+	{
+		command.Parameters.Add(new OleDbParameter(param, (object)value));
+	}
+
 	public void addTranParameterWithValue(string param, string value)
 	{
 		//IL_000e: Unknown result type (might be due to invalid IL or missing references)

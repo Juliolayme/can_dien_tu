@@ -477,6 +477,27 @@ public class frmCan : Form
 
 	private bool inFmtSoluong2 = false;
 
+	// Doc tru luong dung y nhu dang hien thi: luon coi dau cham la dau thap phan,
+	// khong phu thuoc dau thap phan cua Windows (tranh 80.0 bi luu thanh 800).
+	private double ParseWeight(string s)
+	{
+		if (s == null)
+		{
+			return 0.0;
+		}
+		s = s.Trim();
+		double v;
+		if (double.TryParse(s, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out v))
+		{
+			return v;
+		}
+		if (double.TryParse(s, out v))
+		{
+			return v;
+		}
+		return 0.0;
+	}
+
 	// Nhap lien tuc cac chu so, chu so cuoi luon la phan le (1 so le),
 	// dau cham duoc tu dong chen truoc chu so cuoi. VD: 125 -> 12.5
 	private string FormatCanTay(string input)
@@ -879,11 +900,11 @@ public class frmCan : Form
 		dataFetcher.addParameterWithValue("@phieu_id", gMaxIDPhieucan.ToString());
 		if (chkCanbi.Checked)
 		{
-			dataFetcher.addParameterWithValue("@trongluong", (double.Parse(((Control)lblDaucan).Text) * -1.0).ToString());
+			dataFetcher.addParameterWithValue("@trongluong", ParseWeight(((Control)lblDaucan).Text) * -1.0);
 		}
 		else
 		{
-			dataFetcher.addParameterWithValue("@trongluong", double.Parse(((Control)lblDaucan).Text).ToString());
+			dataFetcher.addParameterWithValue("@trongluong", ParseWeight(((Control)lblDaucan).Text));
 		}
 		dataFetcher.addParameterWithValue("@hang_id", ((ListControl)cboMahang).SelectedValue.ToString());
 		dataFetcher.addParameterWithValue("@solong", double.Parse(((Control)txtSolong).Text).ToString());
@@ -908,11 +929,11 @@ public class frmCan : Form
 		dataFetcher.addParameterWithValue("@phieu_id", gMaxIDPhieucan.ToString());
 		if (chkCanbi2.Checked)
 		{
-			dataFetcher.addParameterWithValue("@trongluong", (double.Parse(((Control)lblDaucan).Text) * -1.0).ToString());
+			dataFetcher.addParameterWithValue("@trongluong", ParseWeight(((Control)lblDaucan).Text) * -1.0);
 		}
 		else
 		{
-			dataFetcher.addParameterWithValue("@trongluong", double.Parse(((Control)lblDaucan).Text).ToString());
+			dataFetcher.addParameterWithValue("@trongluong", ParseWeight(((Control)lblDaucan).Text));
 		}
 		dataFetcher.addParameterWithValue("@hang_id", ((ListControl)cboMahang).SelectedValue.ToString());
 		dataFetcher.addParameterWithValue("@solong", double.Parse(((Control)txtSolongbi).Text).ToString());
